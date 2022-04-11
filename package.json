@@ -1,7 +1,10 @@
 {
-    "name": "comp-lib",
+    "name": "@ilakshay14/comp-lib",
     "version": "1.0.0",
     "license": "MIT",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/@ilakshay14"
+    },
     "scripts": {
         "rollup": "rollup -c"
     },
