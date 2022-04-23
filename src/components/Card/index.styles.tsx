@@ -8,19 +8,18 @@ interface StyleProps {
     borderRadius: string;
     color: string;
     padding: string;
-    disabled: boolean;
+    shadow: string;
 }
 
-const StyledButton = styled.button<StyleProps>`
-    cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
+const StyledCard = styled.div<StyleProps>`
     width: ${(props) => props.width};
     height: ${(props) => props.height};
     padding: ${(props) => props.padding};
     color: ${(props) => props.color};
-    background-color: ${(props) =>
-        props.disabled ? "#c4c4c4" : props.bgColor};
+    background-color: ${(props) => props.bgColor};
     border: ${(props) => props.border};
     border-radius: ${(props) => props.borderRadius};
+    box-shadow: ${(props) => props.shadow};
 `;
 
-export default StyledButton;
+export default StyledCard;
