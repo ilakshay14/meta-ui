@@ -1,6 +1,6 @@
 {
     "name": "@ilakshay14/comp-lib",
-    "version": "1.1.3",
+    "version": "1.1.5",
     "license": "MIT",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/@ilakshay14"
