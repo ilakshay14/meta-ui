@@ -22,6 +22,7 @@ Text.args = {
     ...commonArgs,
     type: "text",
     placeholder: "text input",
+    onChange: () => {},
 };
 
 export const Number = Template.bind({});

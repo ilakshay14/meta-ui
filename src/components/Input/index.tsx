@@ -2,6 +2,8 @@ import React, { HTMLAttributes } from "react";
 import StyledInput from "./index.styles";
 
 export interface InputProps extends HTMLAttributes<HTMLInputElement> {
+    name: string;
+    id?: string;
     width: string;
     height: string;
     type: string;
@@ -24,6 +26,7 @@ const InputBox = (props: InputProps) => {
 export default InputBox;
 
 InputBox.defaultProps = {
+    name: "",
     width: "150px",
     height: "30px",
     border: "2px solid #b5b5b5",
