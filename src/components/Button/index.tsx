@@ -10,6 +10,7 @@ export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
     borderRadius: string;
     padding: string;
     disabled: boolean;
+    onClick: () => void;
 }
 
 const Button = (props: ButtonProps) => {
@@ -27,6 +28,5 @@ Button.defaultProps = {
     border: "none",
     borderRadius: "5px",
     padding: "0",
-    onClick: () => {},
     disabled: false,
 };

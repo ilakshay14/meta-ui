@@ -4,11 +4,22 @@ import Card from "./index";
 
 export default {
     component: Card,
-    argTypes: {
-        onClick: { action: "clicked" },
-    },
 };
 
-const Template = (args) => <Card {...args} />;
+const Template = (args) => (
+    <Card {...args}>
+        <p>
+            {args.isClickable
+                ? "This is a clickable card."
+                : "This is a dumb card"}
+        </p>
+    </Card>
+);
 
-export const Primary = Template.bind({});
+export const Default = Template.bind({});
+
+export const Clickable = Template.bind({});
+
+Clickable.args = {
+    isClickable: true,
+};

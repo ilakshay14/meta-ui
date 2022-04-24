@@ -9,6 +9,7 @@ interface StyleProps {
     color: string;
     padding: string;
     shadow: string;
+    isClickable?: boolean;
 }
 
 const StyledCard = styled.div<StyleProps>`
@@ -20,6 +21,7 @@ const StyledCard = styled.div<StyleProps>`
     border: ${(props) => props.border};
     border-radius: ${(props) => props.borderRadius};
     box-shadow: ${(props) => props.shadow};
+    cursor: ${(props) => (props.isClickable ? "pointer" : "initial")};
 `;
 
 export default StyledCard;

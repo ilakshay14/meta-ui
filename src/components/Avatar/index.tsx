@@ -7,9 +7,10 @@ export interface AvatarProps extends HTMLAttributes<HTMLDivElement> {
     border?: string;
     borderRadius?: string;
     padding?: string;
-    isClickable?: boolean;
     src: string;
     alt: string;
+    isClickable?: boolean;
+    onClick?: () => void;
 }
 
 const Avatar = (props: AvatarProps) => {
