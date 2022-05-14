@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Avatar/Index Clickable Avatar 1`] = `
+<div
+  alt="user-profile-image"
+  className="sc-bczRLJ bQwvVG"
+  height="100px"
+  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+  width="100px"
+>
+  <img
+    alt="user-profile-image"
+    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/Avatar/Index Primary 1`] = `
+<div
+  alt="user-profile-image"
+  className="sc-bczRLJ eFRsCP"
+  height="100px"
+  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+  width="100px"
+>
+  <img
+    alt="user-profile-image"
+    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/Avatar/Index Small Avatar 1`] = `
+<div
+  alt="user-profile-image"
+  className="sc-bczRLJ brmjUr"
+  height="60px"
+  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+  width="60px"
+>
+  <img
+    alt="user-profile-image"
+    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/Avatar/Index Tiny Avatar 1`] = `
+<div
+  alt="user-profile-image"
+  className="sc-bczRLJ fzuPqP"
+  height="30px"
+  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+  width="30px"
+>
+  <img
+    alt="user-profile-image"
+    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/Button/Index Disabled Button 1`] = `
+<button
+  className="sc-gsnTZi foTvNT"
+  color="#fff"
+  disabled={true}
+  height="40px"
+  label="Click Me"
+  width="150px"
+>
+  Click Me
+</button>
+`;
+
+exports[`Storyshots Components/Button/Index Primary 1`] = `
+<button
+  className="sc-gsnTZi jkOGIa"
+  color="#fff"
+  disabled={false}
+  height="40px"
+  label="Click Me"
+  width="150px"
+>
+  Click Me
+</button>
+`;
+
+exports[`Storyshots Components/Card/Index Clickable 1`] = `
+<div
+  className="sc-dkzDqf kufRNV"
+  color="#323153"
+  disabled={false}
+  height="83px"
+  width="200px"
+>
+  <p>
+    This is a clickable card.
+  </p>
+</div>
+`;
+
+exports[`Storyshots Components/Card/Index Default 1`] = `
+<div
+  className="sc-dkzDqf gAygQg"
+  color="#323153"
+  disabled={false}
+  height="83px"
+  width="200px"
+>
+  <p>
+    This is a dumb card
+  </p>
+</div>
+`;
+
+exports[`Storyshots Components/Input/Index Email 1`] = `
+<input
+  className="sc-hKMtZM cUxdQj"
+  disabled={false}
+  height="30px"
+  name=""
+  onChange={[Function]}
+  placeholder="email input"
+  type="email"
+  width="150px"
+/>
+`;
+
+exports[`Storyshots Components/Input/Index Error 1`] = `
+<input
+  className="sc-hKMtZM bmmefr"
+  disabled={false}
+  height="30px"
+  name=""
+  onChange={[Function]}
+  placeholder="text input"
+  type="text"
+  width="150px"
+/>
+`;
+
+exports[`Storyshots Components/Input/Index Number 1`] = `
+<input
+  className="sc-hKMtZM cUxdQj"
+  disabled={false}
+  height="30px"
+  name=""
+  onChange={[Function]}
+  placeholder="number input"
+  type="number"
+  width="150px"
+/>
+`;
+
+exports[`Storyshots Components/Input/Index Password 1`] = `
+<input
+  className="sc-hKMtZM cUxdQj"
+  disabled={false}
+  height="30px"
+  name=""
+  onChange={[Function]}
+  placeholder="password input"
+  type="password"
+  width="150px"
+/>
+`;
+
+exports[`Storyshots Components/Input/Index Text 1`] = `
+<input
+  className="sc-hKMtZM cUxdQj"
+  disabled={false}
+  height="30px"
+  name=""
+  onChange={[Function]}
+  placeholder="text input"
+  type="text"
+  width="150px"
+/>
+`;
+
+exports[`Storyshots Components/Select/Index Default 1`] = `
+<select
+  className="sc-eCYdqJ dPwBtJ"
+  disabled={false}
+  height="30px"
+  name="test-select"
+  onChange={[Function]}
+  width="200px"
+>
+  <option
+    value=""
+  >
+    Select an option
+  </option>
+  <option
+    value="test 1"
+  >
+    test 1
+  </option>
+  <option
+    value="test 2"
+  >
+    test 2
+  </option>
+</select>
+`;
+
+exports[`Storyshots Components/Select/Index Disabled 1`] = `
+<select
+  className="sc-eCYdqJ bYfwcm"
+  disabled={true}
+  height="30px"
+  name=""
+  onChange={[Function]}
+  width="200px"
+>
+  <option
+    value=""
+  >
+    Select an option
+  </option>
+  <option
+    value="test 1"
+  >
+    test 1
+  </option>
+  <option
+    value="test 2"
+  >
+    test 2
+  </option>
+</select>
+`;
+
+exports[`Storyshots Components/Select/Index Error 1`] = `
+<select
+  className="sc-eCYdqJ hexosZ"
+  disabled={false}
+  height="30px"
+  name=""
+  onChange={[Function]}
+  width="200px"
+>
+  <option
+    value=""
+  >
+    Select an option
+  </option>
+  <option
+    value="test 1"
+  >
+    test 1
+  </option>
+  <option
+    value="test 2"
+  >
+    test 2
+  </option>
+</select>
+`;
+
+exports[`Storyshots Welcome ReadMe 1`] = `
+Array [
+  <h1>
+    Welcome to my new component lib! 🎉
+  </h1>,
+  <h4>
+    It is just the begining. 
+  </h4>,
+  <p>
+    I've been meaning to work on this since a long time. And now since I've finally got it up & running, I would request you to try it out. Would love to hear your feedback on how I can improve this and make it better.
+    <br />
+    <br />
+    It is just in the early stages and to be honest, I dont' even have a cool name for it. I do have this urge to name my component lib something like Mark I or Ultron 0.0, but we all know how that ended! (xD)
+    <br />
+    <br />
+    So stay tuned for a lot updates, and do give this a shot and let me know your thoughts on how I can make it better.
+    <br />
+    <br />
+    Cheers! 🥃 ❣️
+  </p>,
+  <h4>
+    The Installation! ⚙️
+  </h4>,
+  <code
+    style={
+      Object {
+        "backgroundColor": "#d6d6d7",
+        "borderRadius": "5px",
+        "padding": "10px",
+      }
+    }
+  >
+    yarn add @ilakshay14/comp-lib
+  </code>,
+  <br />,
+  <br />,
+  <h5>
+    OR
+  </h5>,
+  <br />,
+  <code
+    style={
+      Object {
+        "backgroundColor": "#d6d6d7",
+        "borderRadius": "5px",
+        "padding": "10px",
+      }
+    }
+  >
+    npm install @ilakshay14/comp-lib
+  </code>,
+]
+`;

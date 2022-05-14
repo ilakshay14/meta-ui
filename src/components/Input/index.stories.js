@@ -13,6 +13,9 @@ const commonArgs = {
 
 export default {
     component: InputBox,
+    parameters: {
+        layout: "centered",
+    },
 };
 
 const Template = (args) => <InputBox {...args} />;
