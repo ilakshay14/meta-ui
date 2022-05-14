@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">77.27% </span>
+                <span class="strong">90.9% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>51/66</span>
+                <span class='fraction'>60/66</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">66.66% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>2/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">77.27% </span>
+                <span class="strong">90.9% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>51/66</span>
+                <span class='fraction'>60/66</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -155,21 +155,21 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -220,22 +220,22 @@ export interface SelectProps extends HTMLAttributes&lt;HTMLSelectElement&gt; {
     style?: object;
 }
 &nbsp;
-const SelectBox = (<span class="fstat-no" title="function not covered" >props: SelectProps) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >    return (</span>
-<span class="cstat-no" title="statement not covered" >        &lt;StyledSelect {...props}&gt;</span>
-<span class="cstat-no" title="statement not covered" >            &lt;option value=''&gt;Select an option&lt;/option&gt;</span>
-<span class="cstat-no" title="statement not covered" >            {props.options.length ? (</span>
+const SelectBox = (props: SelectProps) =&gt; {
+    return (
+        &lt;StyledSelect {...props}&gt;
+            &lt;option value=''&gt;Select an option&lt;/option&gt;
+            {<span class="branch-0 cbranch-no" title="branch not covered" >props.options.length ? (</span>
 <span class="cstat-no" title="statement not covered" >                props.options.map((item) =&gt; (</span>
 <span class="cstat-no" title="statement not covered" >                    &lt;option value={item.value} key={item.id}&gt;</span>
 <span class="cstat-no" title="statement not covered" >                        {item.name}</span>
 <span class="cstat-no" title="statement not covered" >                    &lt;/option&gt;</span>
 <span class="cstat-no" title="statement not covered" >                ))</span>
 <span class="cstat-no" title="statement not covered" >            ) : (</span>
-<span class="cstat-no" title="statement not covered" >                &lt;option value=''&gt;No Options provided&lt;/option&gt;</span>
-<span class="cstat-no" title="statement not covered" >            )}</span>
-<span class="cstat-no" title="statement not covered" >        &lt;/StyledSelect&gt;</span>
-<span class="cstat-no" title="statement not covered" >    );</span>
-<span class="cstat-no" title="statement not covered" >};</span>
+                &lt;option value=''&gt;No Options provided&lt;/option&gt;
+            )}
+        &lt;/StyledSelect&gt;
+    );
+};
 &nbsp;
 export default SelectBox;
 &nbsp;
@@ -268,7 +268,7 @@ SelectBox.defaultProps = {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sun May 15 2022 00:41:42 GMT+0530 (India Standard Time)
+                at Sun May 15 2022 01:26:59 GMT+0530 (India Standard Time)
             </div>
         <script src="../../prettify.js"></script>
         <script>
