@@ -1,6 +1,6 @@
 import React from "react";
 
-import SelectBox from "./index";
+import SelectBox from ".";
 
 const commonArgs = {
     options: [
@@ -22,7 +22,7 @@ const commonArgs = {
     borderRadius: "3px",
     padding: "5px",
     disabled: false,
-    onChange: () => {},
+    onChange: () => { },
 };
 
 export default {
