@@ -23,7 +23,7 @@ Button.defaultProps = {
     width: "150px",
     height: "40px",
     color: "#fff",
-    bgColor: "#9747ff",
+    bgColor: "#1EA1F1",
     label: "Click Me",
     border: "none",
     borderRadius: "5px",
