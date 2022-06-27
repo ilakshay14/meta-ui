@@ -12,7 +12,8 @@
         "test": "jest",
         "test:watch": "jest --watch",
         "test:ci": "jest --watchAll --coverage",
-        "update": "jest --updateSnapshot"
+        "update": "jest --updateSnapshot",
+        "chromatic": "npx chromatic --project-token=ef205ec94f77"
     },
     "devDependencies": {
         "@babel/core": "^7.17.9",
