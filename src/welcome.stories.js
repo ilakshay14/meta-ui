@@ -2,9 +2,15 @@ import React from "react";
 
 import { storiesOf } from "@storybook/react";
 
+const STORY_CODE_BLOCK = {
+    backgroundColor: "#d6d6d7",
+    padding: "10px",
+    borderRadius: "5px",
+};
+
 storiesOf("Welcome", module).add("ReadMe", () => (
     <>
-        <h1>Welcome to my new component lib! 🎉</h1>
+        <h1>Welcome to Meta UI! 🎉</h1>
 
         <h4>It is just the begining. </h4>
         <p>
@@ -14,10 +20,13 @@ storiesOf("Welcome", module).add("ReadMe", () => (
             it better.
             <br />
             <br />
-            It is just in the early stages and to be honest, I dont' even have a
-            cool name for it. I do have this urge to name my component lib
-            something like Mark I or Ultron 0.0, but we all know how that ended!
-            (xD)
+            It is just in the early stages. I have decided to name it as Meta UI, after the
+            concept of metahumans from DC universe - yes, I am a DC fan! Meta UI's super
+            power is its simplicity and flexibiltiy - you can use it out of box or pass your custom
+            style to modify it completely!
+            <br />
+            <br />
+            I am still thinking about its branding which is why you'll see many components looking very basic.
             <br />
             <br />
             So stay tuned for a lot updates, and do give this a shot and let me
@@ -29,11 +38,7 @@ storiesOf("Welcome", module).add("ReadMe", () => (
 
         <h4>The Installation! ⚙️</h4>
         <code
-            style={{
-                backgroundColor: "#d6d6d7",
-                padding: "10px",
-                borderRadius: "5px",
-            }}
+            style={STORY_CODE_BLOCK}
         >
             yarn add @ilakshay14/comp-lib
         </code>
@@ -42,11 +47,7 @@ storiesOf("Welcome", module).add("ReadMe", () => (
         <h5>OR</h5>
         <br />
         <code
-            style={{
-                backgroundColor: "#d6d6d7",
-                padding: "10px",
-                borderRadius: "5px",
-            }}
+            style={STORY_CODE_BLOCK}
         >
             npm install @ilakshay14/comp-lib
         </code>
