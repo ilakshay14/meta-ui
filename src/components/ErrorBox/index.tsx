@@ -26,7 +26,7 @@ export interface IErrorBoxProps extends HTMLAttributes<HTMLDivElement> {
 const ErrorBox = (props: IErrorBoxProps) => {
   return <Container {...props}>
     <div style={props.imgContainerStyles} className='errorBox_img_container'>
-      <img src={ErrorIcon} />
+      <img src={ErrorIcon} alt='error-icon' />
     </div>
     <p style={props.messageStyles}>
       {props.message || 'Something wrong happened. Please try again later.'}
